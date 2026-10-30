@@ -24,6 +24,7 @@ async function BuscarRepositor(Repo){
        let data = await response.json()
         
         while (data.items.length === 0 ) {
+            CampoPesquisa.style.outline = '1px solid white';
             CampoPesquisa.removeAttribute('disabled', 'disabled')
             CampoPesquisa.placeholder = 'Ex..: Inteligência Artificial';
             AvisoError.innerText = 'Usuário não encontrado'
