@@ -100,3 +100,9 @@ body{background-color:#0D1117;
 a {color: #58A6FF;
    
 }
+.Pesquisa,
+.ResultadoPesquisa {
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
